@@ -19,13 +19,7 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-        }
-        .page-content {
-            display: grid;
-            grid-template-columns: 200px minmax(0, 1fr);
-            width: 100%;
-            min-width: 0;
-        }   
+        } 
         nav {
             width: 200px;
             box-sizing: border-box;
