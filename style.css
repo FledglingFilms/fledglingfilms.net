@@ -1,0 +1,151 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+@font-face {
+  font-family: 'Wonderia';
+  src: url('/Wonderia.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif');
+            background-repeat: repeat;
+            color: #00FFFF;
+            font-family: "Times New Roman", Times, serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .page-content {
+            display: grid;
+            grid-template-columns: 200px minmax(0, 1fr);
+            width: 100%;
+            min-width: 0;
+        }   
+        nav {
+            width: 200px;
+            box-sizing: border-box;
+            background-color: #000000;
+            background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20503.gif');
+            background-repeat: repeat;
+            border-right: 3px double #ffffff;
+            padding: 20px 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        nav img {
+            display: block;
+            margin: 0 auto 5px;
+        }
+        nav .visitor-badge {
+            margin-top: auto;
+        }
+        nav a {
+            display: block;
+            color: #00FFFF;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #FF00FF;
+            background-color: transparent;
+        }
+        nav .desc {
+            color: #ffffff;
+            font-size: 12px;
+            margin-bottom: 25px;
+            font-family: Arial, sans-serif;
+        }
+        main {
+            padding: clamp(15px, 2vw, 30px);
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            column-gap: clamp(50px, 8vw, 200px);
+            min-width: 0;
+        }
+        h1 {
+            color: #9999FF;
+            font-family: 'Wonderia';
+            font-size: 115px;
+            font-weight: 400;
+            text-align: left;
+            text-transform: none;
+            letter-spacing: 3px;
+            text-shadow: 5px 5px 0px #333366, 6px 6px 0px #000000;
+            margin-bottom: -40px;
+            margin-top: 0px;
+        }
+        .welcome-text {
+            color: #00FF00;
+            font-size: 19px;
+            line-height: 1.5;
+            text-align: justify;
+        }        
+        .welcome-text-header {
+            color: #00FF00;
+            font-size: 30px;
+            font-weight: 500;
+            text-decoration: underline;
+            line-height: 1.5;
+            text-align: justify;
+        }      
+        .welcome-text-sub-header {
+            color: #00FF00;
+            font-size: 22px;
+            font-weight: 500;
+            text-decoration: underline;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        .latest-video-subheader {
+            color: #FFFF00;
+            font-size: 20px;
+            font-weight: 400;
+            text-decoration: underline;
+            line-height: 1.5;
+            text-align: center;
+            margin-top: 5px;
+        }
+        .latest-video-subheader a {
+            color: #FFFF00;             
+        }
+        .latest-video-subheader a:hover {
+            color: #FF00FF;
+            background-color: transparent;
+        }
+        .video-container {
+          margin-top: 0;
+          border: 6px ridge #888888;
+          padding: 10px;
+          background-color: #111111;
+          text-align: center;
+          box-sizing: border-box;
+          align-self: start;
+        }     
+        .video-container h3 {
+            color: #FFFF00;
+            margin-top: 0;
+        }
+        footer {
+            border-top: 3px double #ffffff;
+        }
+        .footer-text {
+            color: #00FF00;
+            font-size: 15px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .mobile-video {
+            display: none;
+        }
+        .mobile-video a {
+            color: #00FFFF;
+        }
