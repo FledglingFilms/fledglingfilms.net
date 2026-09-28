@@ -20,7 +20,32 @@
             display: flex;
             flex-direction: column;
         }
-         nav a {
+        .page-content {
+            display: grid;
+            grid-template-columns: 200px minmax(0, 1fr);
+            width: 100%;
+            min-width: 0;
+        }   
+        nav {
+            width: 200px;
+            box-sizing: border-box;
+            background-color: #000000;
+            background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20503.gif');
+            background-repeat: repeat;
+            border-right: 3px double #ffffff;
+            padding: 20px 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        nav img {
+            display: block;
+            margin: 0 auto 5px;
+        }
+        nav .visitor-badge {
+            margin-top: auto;
+        }
+        nav a {
             display: block;
             color: #00FFFF;
             font-weight: bold;
@@ -117,4 +142,10 @@
             font-size: 15px;
             line-height: 1.5;
             text-align: center;
+        }
+        .mobile-video {
+            display: none;
+        }
+        .mobile-video a {
+            color: #00FFFF;
         }
