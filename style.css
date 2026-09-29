@@ -35,6 +35,14 @@ body {
   background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20503.gif');
   background-repeat: repeat;
   border-right: 3px double #ffffff;
+  display:flex;
+  flex-direction: column;
+}
+
+.sidebar-badge {
+  margin-top: auto;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .welcome-text {
