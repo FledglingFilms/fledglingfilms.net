@@ -1,14 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
     background-color: #000000;
     background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif');
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 .welcome-text {
