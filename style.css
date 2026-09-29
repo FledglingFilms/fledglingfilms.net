@@ -1,9 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #000000;
     background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif');
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
+}
+
+.page-content {
+    flex: 1;
 }
 
 .welcome-text {
