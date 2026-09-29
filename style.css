@@ -11,63 +11,6 @@ body {
     flex-direction: column;
 }
 
-nav {
-    width: 200px;
-    flex-shrink:0;
-    box-sizing: border-box;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20503.gif');
-    background-repeat: repeat;
-    border-right: 3px double #ffffff;
-    padding: 20px 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-nav img {
-    display: block;
-    margin: 0 auto 5px;
-}
-
-nav .visitor-badge {
-    margin-top: auto;
-    padding-top: 20px;
-}
-
-nav a {
-    display: block;
-    color: #00FFFF;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-nav a:hover {
-    color: #FF00FF;
-    background-color: transparent;
-}
-
-nav .desc {
-    color: #ffffff;
-    font-size: 12px;
-    margin-bottom: 25px;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #9585de;
-    font-family: 'Wonderia';
-    font-size: 115px;
-    font-weight: 400;
-    text-align: left;
-    text-transform: none;
-    letter-spacing: 3px;
-    text-shadow: 5px 5px 0px #333366;
-    margin-bottom: -40px;
-    margin-top: 0px;
-}
-
 .welcome-text {
     color: #00FF00;
     font-size: 19px;
