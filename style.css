@@ -34,6 +34,7 @@ body {
   width: 200px;
   background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20503.gif');
   background-repeat: repeat;
+  border-right: 3px double #ffffff;
 }
 
 .welcome-text {
