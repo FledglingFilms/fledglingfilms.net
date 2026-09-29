@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif');
+    background-image: url('https://neocities.org');
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
@@ -18,18 +18,26 @@ body {
     flex-direction: column;
 } 
 
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .page-content {
     display: grid;
     grid-template-columns: 200px minmax(0, 1fr);
     width: 100%;
     min-width: 0;
-    flex: 1;
+    flex: 1; 
 }   
 
 nav {
     width: 200px;
-    box-sizing: border-box;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20503.gif');
+    background-image: url('https://neocities.org');
     background-repeat: repeat;
     border-right: 3px double #ffffff;
     padding: 20px 10px;
@@ -41,8 +49,6 @@ nav {
 nav img {
     display: block;
     margin: 0 auto 5px;
-    max-width: 100%;
-    height: auto;
 }
 
 nav .visitor-badge {
@@ -73,15 +79,10 @@ nav .desc {
 
 main {
     padding: clamp(15px, 2vw, 30px);
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     column-gap: clamp(30px, 5vw, 200px);
     min-width: 0;
-}
-
-.left-column img {
-    max-width: 100%;
 }
 
 h1 {
@@ -147,8 +148,8 @@ h1 {
     padding: 10px;
     background-color: #111111;
     text-align: center;
-    box-sizing: border-box;
     align-self: start;
+    width: 100%;
 }     
 
 .video-container h3 {
@@ -156,14 +157,25 @@ h1 {
     margin-top: 0;
 }
 
-.right-column img {
-    max-width: 100%;
-    height: auto;
+.desktop-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.desktop-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
     border-top: 3px double #ffffff;
     background-color: #000000;
+    z-index: 10;
 }
 
 .footer-text {
@@ -173,75 +185,62 @@ footer {
     text-align: center;
 }
 
-.mobile-video {
-    display: none;
-}
-
-.mobile-video a {
-    color: #00FFFF;
-}
-
-@media (max-width: 992px) {
+@media screen and (max-width: 768px) {
+    
     .page-content {
-        grid-template-columns: 160px minmax(0, 1fr);
-    }
-    
-    nav {
-        width: 160px;
-        padding: 15px 5px;
-    }
-    
-    nav a {
-        font-size: 16px;
-    }
-    
-    main {
-        column-gap: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .page-content {
-        grid-template-columns: 1fr;
+        display: block !important; 
     }
 
     nav {
-        width: 100%;
-        border-right: none;
-        border-bottom: 3px double #ffffff;
-        padding: 15px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
+        display: flex !important;
+        width: 100% !important; 
+        border-right: none !important;
+        border-bottom: 3px double #ffffff; 
+        padding: 15px 10px !important;
+        flex-direction: row !important; 
+        flex-wrap: wrap !important; 
+        justify-content: center !important;
+        gap: 12px !important;
     }
 
     nav .desc {
-        display: none; 
+        display: none !important; 
     }
 
     nav a {
-        margin-bottom: 0;
-        display: inline-block;
+        margin-bottom: 0 !important;
+        display: inline-block !important;
+        font-size: 16px !important;
     }
 
     nav img, nav .visitor-badge {
-        margin: 5px !important;
-        display: inline-block;
+        margin: 0 5px !important;
+        display: inline-block !important;
+        vertical-align: middle;
     }
     
     nav .visitor-badge {
-        padding-top: 0;
+        padding-top: 0 !important;
     }
 
     main {
-        grid-template-columns: 1fr; 
-        row-gap: 40px;
+        display: block !important;
+        padding: 15px !important;
+    }
+    
+    .left-column, .right-column {
+        width: 100% !important;
+        display: block !important;
+        margin-bottom: 30px;
     }
     
     .left-column img {
-        width: 80vw !important; 
-        display: block;
-        margin: 0 auto;
+        width: 85vw !important; 
+        display: block !important;
+        margin: 0 auto 20px auto !important;
+    }
+
+    .welcome-text, .welcome-text-header, .welcome-text-sub-header {
+        text-align: left !important; 
     }
 }
