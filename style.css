@@ -40,6 +40,35 @@ body {
   text-align: center;
 }
 
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 20px;
+}
+
+.sidebar-menu a {
+  color: #00FFFF;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.sidebar-menu a:hover {
+  color: #FF00FF;
+  background-color: transparent;
+}
+
+.sidebar-menu p {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 25px;
+  font-family: Arial, sans-serif;
+}
+
 .sidebar-badge {
   margin-top: auto;
   text-align: center;
