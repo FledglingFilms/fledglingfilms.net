@@ -22,7 +22,7 @@ body {
     text-align: justify;
 }      
 
-.welcome-text-sub-header {
+.welcome-text-subheader {
     color: #00FF00;
     font-size: 22px;
     font-weight: 500;
@@ -34,12 +34,10 @@ body {
 footer {
     border-top: 3px double #ffffff;
     background-color: #000000;
-    z-index: 10;
 }
 
 .footer-text {
     color: #00FF00;
     font-size: 15px;
-    line-height: 1.5;
     text-align: center;
 }
