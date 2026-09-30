@@ -113,6 +113,13 @@ body {
     text-align: justify;
 }        
 
+.mobile-text {
+    color: #00FF00;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: justify;
+}   
+
 .welcome-text-header {
     color: #00FF00;
     font-size: 30px;
