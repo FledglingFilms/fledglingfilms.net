@@ -170,14 +170,16 @@ footer {
     left: 10%;
     top: 100%;
     text-align: center;
-    color: #00FF00;
-    font-family: "Times New Roman", Times, serif;
+    color: #FFFF00;
+    font-family: Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
+
     transform-origin: 50% 100%;
     transform: rotateX(25deg);
-    animation: crawl 35s linear infinite;
+
+    animation: crawl 15s linear forwards;
 }
 
 .crawl p {
@@ -187,9 +189,16 @@ footer {
 @keyframes crawl {
     0% {
         top: 100%;
+        transform: rotateX(25deg) scale(0.5);
+    }
+
+    70% {
+        top: 15%;
+        transform: rotateX(25deg) scale(0.9);
     }
 
     100% {
-        top: -180%;
+        top: 0;
+        transform: rotateX(0deg) scale(1);
     }
 }
