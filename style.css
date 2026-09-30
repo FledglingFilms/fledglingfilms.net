@@ -48,7 +48,7 @@ body {
     perspective: 400px;
     color: #00FF00;
     font-family: "Pathway Gothic One", Times, serif;
-    font-size: 500%;
+    font-size: 1000%;
     font-weight: 600;
     letter-spacing: 6px;
     line-height: 150%;
@@ -74,11 +74,11 @@ body {
 @keyframes crawl {
     0% {
         top: 0;
-        transform: rotateX(20deg) translateZ(0);
+        transform: rotateX(10deg) translateZ(0);
     }
     100% {
         top: -6000px;
-        transform: rotateX(25deg) translateZ(-2500px);
+        transform: rotateX(15deg) translateZ(-2500px);
     }
 }
 
