@@ -165,16 +165,16 @@ footer {
     -webkit-mask-image: linear-gradient(
         to bottom,
         transparent 0%,
-        black 12%,
-        black 88%,
+        black 20%,
+        black 80%,
         transparent 100%
     );
 
     mask-image: linear-gradient(
         to bottom,
         transparent 0%,
-        black 12%,
-        black 88%,
+        black 20%,
+        black 80%,
         transparent 100%
     );
 }
@@ -191,7 +191,7 @@ footer {
     font-weight: bold;
     line-height: 1.5;
 
-    animation: crawl 90s linear forwards;
+    animation: crawl 50s linear forwards;
 }
 
 .crawl p {
