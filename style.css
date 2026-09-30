@@ -4,6 +4,10 @@ html, body {
     min-height: 100dvh;
 }
 
+.desktop-content {
+    display: block;
+}
+
 .mobile-user-special {
     display: none;
 }
@@ -15,7 +19,7 @@ html, body {
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
-        min-height: 100dvh;
+        height: 100dvh;
         width: 100%;
         padding: 24px;
         text-align: center;
