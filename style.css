@@ -191,7 +191,7 @@ footer {
     font-weight: bold;
     line-height: 1.5;
 
-    animation: crawl 50s linear forwards;
+    animation: crawl 40s linear forwards;
 }
 
 .crawl p {
