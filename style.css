@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+.desktop-view {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .page-content {
     flex: 1;
     display: flex;
