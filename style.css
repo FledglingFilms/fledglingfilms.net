@@ -78,8 +78,8 @@ body {
         transform: rotateX(10deg) translateZ(0);
     }
     100% {
-        top: -6000px;
-        transform: rotateX(15deg) translateZ(-2500px);
+        top: -4500px;
+        transform: rotateX(15deg) translateZ(-400px);
     }
 }
 
