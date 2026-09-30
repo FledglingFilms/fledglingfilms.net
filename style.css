@@ -158,9 +158,8 @@ footer {
 .crawl-container {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-    perspective: 400px;
     margin-top: 20px;
 }
 
@@ -176,10 +175,7 @@ footer {
     font-weight: bold;
     line-height: 1.5;
 
-    transform-origin: 50% 100%;
-    transform: rotateX(25deg);
-
-    animation: crawl 40s linear forwards;
+    animation: crawl 90s linear forwards;
 }
 
 .crawl p {
@@ -187,18 +183,11 @@ footer {
 }
 
 @keyframes crawl {
-    0% {
+    from {
         top: 100%;
-        transform: rotateX(25deg) scale(0.5);
     }
 
-    70% {
-        top: 15%;
-        transform: rotateX(25deg) scale(0.9);
-    }
-
-    100% {
-        top: 0;
-        transform: rotateX(0deg) scale(1);
+    to {
+        top: -100%;
     }
 }
