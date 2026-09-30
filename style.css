@@ -179,7 +179,7 @@ footer {
     transform-origin: 50% 100%;
     transform: rotateX(25deg);
 
-    animation: crawl 15s linear forwards;
+    animation: crawl 120s linear forwards;
 }
 
 .crawl p {
