@@ -5,6 +5,8 @@ body {
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .page-content {
