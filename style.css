@@ -16,6 +16,10 @@ body {
     min-height: 100vh;
 }
 
+.mobile-view {
+    display: none;
+}
+
 .page-content {
     flex: 1;
     display: flex;
