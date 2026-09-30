@@ -47,7 +47,7 @@ body {
     height: 800px;
     perspective: 400px;
     color: #00FF00;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Pathway Gothic One", Times, serif;
     font-size: 500%;
     font-weight: 600;
     letter-spacing: 6px;
@@ -59,7 +59,7 @@ body {
     position: relative;
     top: -100px;
     transform-origin: 50% 100%;
-    animation: crawl 60s linear;
+    animation: crawl 120s linear;
 }
 
 @keyframes crawl {
