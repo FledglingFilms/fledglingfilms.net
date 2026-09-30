@@ -209,9 +209,12 @@ footer {
 }
 
 .skip-crawl {
-    display: block;
-    margin: 0 auto 15px auto;
-    padding: 5px 12px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+
+    padding: 8px 14px;
 
     background-color: #000000;
     color: #00FF00;
