@@ -20,6 +20,27 @@ body {
     display: none;
 }
 
+@media (max-width: 768px) {
+    .desktop-view {
+        display: none !important;
+    }
+
+    body {
+        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif') !important;
+        background-repeat: repeat !important;
+    }
+
+    .mobile-view {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
 .page-content {
     flex: 1;
     display: flex;
