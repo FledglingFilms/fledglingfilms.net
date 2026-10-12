@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif');
+    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/circut%20board%202.jpg');
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
@@ -26,7 +26,7 @@ body {
     }
 
     body {
-        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif') !important;
+        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/circut%20board%202.jpg') !important;
         background-repeat: repeat !important;
     }
 
