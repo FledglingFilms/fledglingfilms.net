@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/551.GIF');
+    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20485.jpg');
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
@@ -26,7 +26,7 @@ body {
     }
 
     body {
-        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/551.GIF') !important;
+        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20485.jpg') !important;
         background-repeat: repeat !important;
     }
 
