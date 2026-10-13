@@ -54,9 +54,11 @@ body {
   margin: 10px auto 0 auto;
 }
 
-.gif.atttribute {
-    justify-content: center;
-    align-items: center;
+.gif-attributes {
+  display: block;
+  max-width: 225px;
+  width: 100%; 
+  margin: 10px auto 0 auto;
 }
 
 .main-layout {
