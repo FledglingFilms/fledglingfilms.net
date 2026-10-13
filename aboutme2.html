@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Fade to GIF Background</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        body {
+            /* Makes the page very long for scrolling */
+            min-height: 500vh; 
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #ffffff;
+            background-color: #000000;
+        }
+
+        /* 1. The Fixed GIF Background Layer */
+        .gif-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            /* REPLACE with your actual GIF URL */
+            background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%2045.gif'); 
+            background-repeat: repeat; /* Ensures the GIF tiles perfectly */
+            z-index: -2;
+        }
+
+        /* 2. The Black Mask Layer that Fades Out */
+        .black-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #000000;
+            z-index: -1;
+            will-change: opacity; /* Optimizes browser rendering performance */
+        }
+
+        /* Content Styling */
+        section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            text-align: center;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8); /* Ensures text stays readable */
+        }
+
+        h1 { font-size: 3rem; margin-bottom: 1rem; }
+        p { font-size: 1.25rem; color: #e2e8f0; }
+        .arrow { margin-top: 2rem; font-size: 2rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Background layers remain fixed in place while you scroll -->
+    <div class="gif-background"></div>
+    <div class="black-overlay" id="mask"></div>
+
+    <!-- Scrollable Content Sections -->
+    <section>
+        <h1>Welcome to the Dark</h1>
+        <p>Scroll down to reveal the repeating GIF pattern.</p>
+        <div class="arrow">↓</div>
+    </section>
+
+    <section>
+        <h1>Fading In...</h1>
+        <p>The black layer is becoming transparent.</p>
+    </section>
+
+    <section>
+        <h1>Pattern Revealed</h1>
+        <p>The background GIF is now completely visible and tiling naturally.</p>
+    </section>
+
+    <script>
+        const mask = document.getElementById('mask');
+        
+        // Configuration: Adjust this to control how fast the fade happens
+        // 1000 means the fade finishes exactly after scrolling 1000 pixels down
+        const fadeDistance = 1200; 
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            
+            // Calculate opacity: starts at 1 (black) and goes to 0 (transparent)
+            let opacity = 1 - (scrollTop / fadeDistance);
+            
+            // Constrain opacity between 0 and 1 so it doesn't break
+            if (opacity < 0) opacity = 0;
+            if (opacity > 1) opacity = 1;
+            
+            mask.style.opacity = opacity;
+        });
+    </script>
+</body>
+</html>
