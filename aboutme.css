@@ -126,11 +126,8 @@ body {
     font-size: 12px;
     line-height: 1.5;
     text-align: justify;
-    text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
+    text-shadow: 
+        2px 2px 1px #000;
 }   
 
 .welcome-text-header {
@@ -140,11 +137,8 @@ body {
     text-decoration: underline;
     line-height: 1.5;
     text-align: center;
-    text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
+    text-shadow: 
+        2px 2px 1px #000;
 }      
 
 .welcome-text-subheader {
@@ -153,11 +147,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     text-align: justify;
-    text-shadow:
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
+    text-shadow: 
+        2px 2px 1px #000;
 }
 
 footer {
