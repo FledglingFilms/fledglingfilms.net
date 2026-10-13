@@ -112,34 +112,54 @@ body {
 }
 
 .welcome-text {
-    color: #00FF00;
+    color: #fff2b8;
     font-size: 22px;
     line-height: 1.5;
     text-align: justify;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }        
 
 .mobile-text {
-    color: #00FF00;
+    color: #fff2b8;
     font-size: 12px;
     line-height: 1.5;
     text-align: justify;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }   
 
 .welcome-text-header {
-    color: #00FF00;
+    color: #fff2b8;
     font-size: 30px;
     font-weight: 500;
     text-decoration: underline;
     line-height: 1.5;
     text-align: center;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }      
 
 .welcome-text-subheader {
-    color: #00FF00;
+    color: #fff2b8;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.5;
     text-align: justify;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }
 
 footer {
