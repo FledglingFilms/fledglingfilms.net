@@ -54,6 +54,11 @@ body {
   margin: 10px auto 0 auto;
 }
 
+.gif.atttribute {
+    justify-content: center;
+    align-items: center;
+}
+
 .main-layout {
   display: flex;
   flex-direction: row; 
