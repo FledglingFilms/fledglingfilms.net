@@ -108,7 +108,7 @@ body {
 
 .welcome-text {
     color: #00FF00;
-    font-size: 19px;
+    font-size: 22px;
     line-height: 1.5;
     text-align: justify;
 }        
@@ -126,7 +126,7 @@ body {
     font-weight: 500;
     text-decoration: underline;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
 }      
 
 .welcome-text-subheader {
