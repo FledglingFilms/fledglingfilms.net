@@ -55,10 +55,9 @@ body {
 }
 
 .gif-attributes {
-  display: block;
-  max-width: 225px;
-  width: 100%; 
-  margin: 10px auto 0 auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px;
 }
 
 .main-layout {
