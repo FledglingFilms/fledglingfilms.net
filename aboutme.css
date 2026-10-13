@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20155.gif');
+    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/beach.gif');
     background-repeat: repeat;
     color: #00FFFF;
     font-family: "Times New Roman", Times, serif;
@@ -26,7 +26,7 @@ body {
     }
 
     body {
-        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20155.gif') !important;
+        background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/beach.gif') !important;
         background-repeat: repeat !important;
     }
 
@@ -64,7 +64,7 @@ body {
 .sidebar {
   padding-top: 20px;
   width: 200px;
-  background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%2010.jpg');
+  background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/bubbles%204.gif');
   background-repeat: repeat;
   border-right: 3px double #ffffff;
   display:flex;
