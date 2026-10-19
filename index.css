@@ -25,6 +25,8 @@ body {
 }
 
 .title {
+    display: flex;
+    gap: 5px;
     position: absolute;
     top: 12%;
     left: 50%;
