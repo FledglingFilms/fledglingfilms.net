@@ -49,42 +49,36 @@ body {
     font-size: clamp(12px, 2vw, 25px);
 }
 
-.venture {
-    position: absolute;
-    top: 5%;
-    left: 25%;
-    margin: 0;
+.mysterious-text {
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
+}
+
+.mysterious-text span {
+    position: absolute;
+    margin: 0;
+}
+
+.venture {
+    top: 20%;
+    left: 25%;
     font-size: 30px;
 }
 
 .unknown {
-    position: absolute;
-    top: 50%;
+    top: 40%;
     left: 35%;
-    margin: 0;
-    color: #00ff00;
-    font-family: "Times New Roman", Times, serif;
     font-size: 22px;
 }
 
 .into-the-void {
-    position: absolute;
-    top: 75%;
+    top: 60%;
     left: 55%;
-    margin: 0;
-    color: #00ff00;
-    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
 }
 
 .into {
-    position: absolute;
-    top: 95%;
+    top: 80%;
     left: 75%;
-    margin: 0;
-    color: #00ff00;
-    font-family: "Times New Roman", Times, serif;
     font-size: 15px;
 }
