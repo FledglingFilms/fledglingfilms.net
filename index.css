@@ -15,7 +15,7 @@ body {
         linear-gradient(
             to-bottom,
             #000 0%,
-            transparent 300px
+            transparent 100px
         ),
         url("https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif");
     background-repeat: no-repeat, repeat;
