@@ -43,7 +43,7 @@ body {
 .net {
     position: static;
     margin: 0;
-    transform: translateY(8px);
+    transform: translateY(16px);
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
     font-size: 25px;
