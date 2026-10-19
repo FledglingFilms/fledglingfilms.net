@@ -29,14 +29,19 @@ body {
     top: 12%;
     left: 50%;
     transform: translateX(-50%);
-    align: middle;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title img {
+    display: block;
+    max-width: 70vw;
+    height: auto;
 }
 
 .net {
-    position: absolute;
-    top: 13.65%;
-    left: 72.5%;
+    position: static;
     margin: 0;
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
