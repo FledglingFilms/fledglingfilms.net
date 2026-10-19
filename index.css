@@ -46,24 +46,34 @@ body {
 .venture {
     position: absolute;
     top: 5%;
-    left: 25%;
+    left: 15%;
     margin: 0;
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
 }
 
-.further {
+.unknown {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 35%;
     margin: 0;
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .into-the-void {
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    margin: 0;
+    color: #00ff00;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+}
+
+.into {
     position: absolute;
     top: 90%;
     left: 75%;
