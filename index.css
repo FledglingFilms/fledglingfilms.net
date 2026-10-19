@@ -4,6 +4,12 @@ body {
     color: white;
 }
 
+.space {
+    min-height: 600px;
+    background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%20571.gif");
+    background-repeat: repeat
+}
+
 @media (max-width: 768px) {
     .desktop-view {
         display: none !important;
