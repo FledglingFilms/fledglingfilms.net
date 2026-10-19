@@ -12,6 +12,7 @@ body {
 
 .space {
     min-height: 400vh;
+    position: relative;
     background-image: 
         linear-gradient(
             to bottom,
