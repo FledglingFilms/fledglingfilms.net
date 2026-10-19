@@ -24,6 +24,13 @@ body {
     background-position: top left, top left;
 }
 
+.title {
+    position: absolute;
+    top: 6%;
+    align: middle;
+    margin: 0;
+}
+
 .venture {
     position: absolute;
     top: 5%;
