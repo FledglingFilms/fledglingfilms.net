@@ -82,3 +82,21 @@ body {
     left: 75%;
     font-size: 15px;
 }
+
+.space-gifs {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.space-gif {
+    position: absolute;
+    height: auto;
+    max-width: 100%;
+}
+
+.gif-one {
+    top: 10%;
+    left: 15%;
+    width: 100px;
+}
