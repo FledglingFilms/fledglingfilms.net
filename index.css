@@ -4,6 +4,11 @@ body {
     color: white;
 }
 
+.void {
+    min-height: 600px;
+    background-color: #000;
+}
+
 .space {
     min-height: 600px;
     background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif");
