@@ -7,6 +7,7 @@ body {
 .void {
     min-height: 200vh;
     background-color: #000;
+    position: relative;
 }
 
 .space {
@@ -20,4 +21,11 @@ body {
         url("https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif");
     background-repeat: no-repeat, repeat;
     background-position: top left, top left;
+}
+
+.venture {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    margin: 0;
 }
