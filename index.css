@@ -10,12 +10,12 @@ body {
 }
 
 .space {
-    min-height: 300vh;
+    min-height: 400vh;
     background-image: 
         linear-gradient(
             to bottom,
             #000 0%,
-            transparent 300px
+            transparent 600px
         ),
         url("https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif");
     background-repeat: no-repeat, repeat;
