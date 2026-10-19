@@ -108,7 +108,25 @@ body {
     max-width: 100%;
 }
 
-.phrase-one {                    /* Who are we? */
+.phrase-one {                    /* who are we? */
+    top: 20%;
+    left: 60%;
+    font-size: 20px;
+}
+
+.phrase-two {                    /* what do we want? */
+    top: 20%;
+    left: 60%;
+    font-size: 20px;
+}
+
+.phrase-three {                    /* the answers lie within... */
+    top: 20%;
+    left: 60%;
+    font-size: 20px;
+}
+
+.phrase-four {                    /* ...should you find the courage to continue on */
     top: 20%;
     left: 60%;
     font-size: 20px;
