@@ -60,13 +60,13 @@ body {
 }
 
 .venture {
-    top: 20%;
+    top: 5%;
     left: 25%;
     font-size: 30px;
 }
 
 .unknown {
-    top: 40%;
+    top: 30%;
     left: 35%;
     font-size: 22px;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .into {
-    top: 80%;
+    top: 95%;
     left: 75%;
     font-size: 15px;
 }
