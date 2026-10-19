@@ -27,6 +27,8 @@ body {
 .title {
     position: absolute;
     top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
     align: middle;
     margin: 0;
 }
