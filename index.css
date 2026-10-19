@@ -46,7 +46,7 @@ body {
     transform: translate(-8px, 22px);
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
-    font-size: 25px;
+    font-size: clamp(12px, 2vw, 25px);
 }
 
 .venture {
