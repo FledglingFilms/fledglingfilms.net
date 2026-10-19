@@ -35,6 +35,11 @@ body {
     margin: 0;
 }
 
+.title img {
+    width: 50%;
+    height: auto;
+}
+
 .venture {
     position: absolute;
     top: 5%;
