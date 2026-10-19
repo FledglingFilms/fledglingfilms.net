@@ -83,6 +83,25 @@ body {
     font-size: 15px;
 }
 
+.space-text {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.space-phrase {
+    position: absolute;
+    margin: 0;
+    color: #00ff00;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.phrase-one {
+    top: 15%;
+    left: 10%;
+    font-size: 20px;
+}
+
 .space-gifs {
     position: absolute;
     inset: 0;
@@ -95,20 +114,20 @@ body {
     max-width: 100%;
 }
 
-.gif-one {
+.gif-one {                    /* Spinning UFO */
     top: 20%;
     left: 10%;
     width: 200px;
 }
 
-.gif-two {
+.gif-two {                    /* Are aliens among us? Text */
     top: 30%;
     left: 70%;
-    width: 300px;
+    width: 200px;
 }
 
-.gif-three {
+.gif-three {                   /* White Hole Thing */
     top: 15%;
-    left: 30%;
+    left: 70%;
     width: 300px;
 }
