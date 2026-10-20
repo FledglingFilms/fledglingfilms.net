@@ -4,6 +4,24 @@ body {
     color: white;
 }
 
+.desktop-site {
+    display: block;
+}
+
+.mobile-site {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .desktop-site {
+        display: none;
+    }
+
+    .mobile-site {
+        display: block;
+    }
+}
+
 .void {
     min-height: 400vh;
     background-color: #000;
