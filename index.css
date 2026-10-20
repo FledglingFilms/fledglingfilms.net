@@ -109,8 +109,8 @@ body {
 }
 
 .phrase-one {                    /* who are we? */
-    top: 20%;
-    left: 20%;
+    top: 30%;
+    left: 30%;
     font-size: 20px;
 }
 
@@ -121,13 +121,13 @@ body {
 }
 
 .phrase-three {                    /* the answers lie beyond... */
-    top: 65%;
-    left: 40%;
+    top: 70%;
+    left: 10%;
     font-size: 20px;
 }
 
 .phrase-four {                    /* ...should you find the courage to continue onward */
-    top: 100%;
+    top: 90%;
     left: 50%;
     font-size: 20px;
 }
