@@ -26,7 +26,7 @@ body {
     }
 
     .mobile-site {
-        display: block;
+        display: flex;
     }
 }
 
