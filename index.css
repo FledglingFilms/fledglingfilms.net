@@ -24,6 +24,20 @@ body {
     background-position: top left, top left;
 }
 
+.wires {
+    min-height: 400vh;
+    position: relative;
+    background-image: 
+        linear-gradient(
+            to bottom,
+            #000 0%,
+            transparent 1200px
+        ),
+        url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%2044.gif");
+    background-repeat: no-repeat, repeat;
+    background-position: top left, top left;
+}
+
 .title {
     position: absolute;
     top: 12%;
