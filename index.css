@@ -27,7 +27,7 @@ body {
 }
 
 .wires {
-    min-height: 400vh;
+    min-height: 50vh;
     position: relative;
     background-image: 
         linear-gradient(
