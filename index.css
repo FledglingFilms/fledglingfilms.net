@@ -154,6 +154,12 @@ body {
     font-size: 20px;
 }
 
+.phrase-five {                    /* ...and prepare to dive within */
+    top: 80%;
+    left: 70%;
+    font-size: 20px;
+}
+
 .gif-one {                    /* Spinning UFO */
     top: 20%;
     left: 10%;
