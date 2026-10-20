@@ -18,7 +18,7 @@ body {
             to bottom,
             #000 0%,
             transparent 1200px,
-            transparent calc(100% - 1600px),
+            transparent calc(100% - 1000px),
             #000 100%
         ),
         url("https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif");
