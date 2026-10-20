@@ -165,5 +165,6 @@ body {
 .gif-six {                    /* Rocket */
     top: 37%;
     left: 15%;
-    width: 150px;
+    width: 100px;
+    transform: rotate(45deg);
 }
