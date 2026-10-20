@@ -152,6 +152,12 @@ body {
 
 .gif-four {                    /* Blue Spinning Nebula */
     top: 45%;
+    left: 32%;
+    width: 200px;
+}
+
+.gif-five {                    /* Blue Spinning Nebula */
+    top: 53%;
     left: 40%;
     width: 200px;
 }
