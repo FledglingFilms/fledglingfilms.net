@@ -110,25 +110,25 @@ body {
 
 .phrase-one {                    /* who are we? */
     top: 20%;
-    left: 60%;
+    left: 20%;
     font-size: 20px;
 }
 
 .phrase-two {                    /* what do we want? */
-    top: 20%;
-    left: 60%;
+    top: 50%;
+    left: 70%;
     font-size: 20px;
 }
 
 .phrase-three {                    /* the answers lie beyond... */
-    top: 20%;
-    left: 60%;
+    top: 65%;
+    left: 40%;
     font-size: 20px;
 }
 
 .phrase-four {                    /* ...should you find the courage to continue onward */
-    top: 20%;
-    left: 60%;
+    top: 100%;
+    left: 50%;
     font-size: 20px;
 }
 
