@@ -12,7 +12,7 @@ body {
     display: none;
     min-height: 100vh;
     box-sizing: border-box;
-    background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/water.gif");
+    background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/stars%202.gif");
     background-repeat: repeat;
     padding: 40px 20px;
     flex-direction: column;
@@ -67,7 +67,7 @@ body {
             #000 0%,
             transparent 1200px
         ),
-        url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%20592.gif");
+        url("https://bettysgraphics.neocities.org/images/backgrounds/water.gif");
     background-repeat: no-repeat, repeat;
     background-position: top left, top left;
 }
