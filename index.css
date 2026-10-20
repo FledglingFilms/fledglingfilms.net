@@ -165,6 +165,12 @@ body {
 .gif-six {                    /* Rocket */
     top: 37%;
     left: 15%;
-    width: 100px;
+    width: 130px;
     transform: rotate(45deg);
+}
+
+.gif-seven {                    /* Space Guy */
+    top: 55%;
+    left: 60%;
+    width: 100px;
 }
