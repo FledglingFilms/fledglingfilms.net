@@ -58,7 +58,7 @@ body {
     background-position: top left, top left;
 }
 
-.wires {
+.mind {
     min-height: 200vh;
     position: relative;
     background-image: 
@@ -67,7 +67,7 @@ body {
             #000 0%,
             transparent 1200px
         ),
-        url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%20529.gif");
+        url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%20524.gif");
     background-repeat: no-repeat, repeat;
     background-position: top left, top left;
 }
