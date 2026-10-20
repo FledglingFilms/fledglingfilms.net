@@ -181,8 +181,14 @@ body {
     width: 50px;
 }
 
-.gif-nine {                    /* Nasa Astronaut*/
+.gif-nine {                    /* Nasa Astronaut */
     top: 89%;
     left: 55%;
     width: 100px;
+}
+
+.gif-ten {                    /* Satellite */
+    top: 82%;
+    left: 75%;
+    width: 120px;
 }
