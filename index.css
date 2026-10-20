@@ -10,6 +10,12 @@ body {
     position: relative;
 }
 
+.void2 {
+    min-height: 300vh;
+    background-color: #000;
+    position: relative;
+}
+
 .space {
     min-height: 400vh;
     position: relative;
