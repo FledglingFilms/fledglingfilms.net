@@ -266,8 +266,8 @@ body {
     color: #F4A338;
     font-family: "Times New Roman", Times, serif;
     text-shadow:
-        1px 1px 2px rgba(0, 0, 0, 0.8),
-        -1px -1px 2px rgba(0, 0, 0, 0.8);
+        1px 1px 2px rgba(0, 0, 0, 1),
+        -1px -1px 2px rgba(0, 0, 0, 1);
 }
 
 .mphrase-one {                    /* Our goals are one and the same... */
