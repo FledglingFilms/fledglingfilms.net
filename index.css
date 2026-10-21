@@ -259,3 +259,20 @@ body {
     left: 6%;
     width: 120px;
 }
+
+.mindscape-text {
+    color: #F4A338;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 0, 0, 0;
+}
+
+.mindscape-text span {
+    position: absolute;
+    margin: 0;
+}
+
+.mindscape-phrase-one {                    /* We want the same thing... */
+    top: 30%;
+    left: 40%;
+    font-size: 40px;
+}
