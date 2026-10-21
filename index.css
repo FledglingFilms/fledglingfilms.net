@@ -124,28 +124,32 @@ body {
     top: 5%;
     left: 25%;
     font-size: 30px;
-    animation: swing 4s ease-in-out infinite alternate;
+    animation: swing 1.8s ease-in-out infinite;
+    animation-delay: calc(var(--i) * -.12s);
 }
 
 .unknown {
     top: 30%;
     left: 35%;
     font-size: 22px;
-    animation: swing 3s ease-in-out infinite alternate;
+    animation: swing 1.8s ease-in-out infinite;
+    animation-delay: calc(var(--i) * -.12s);
 }
 
 .into-the-void {
     top: 60%;
     left: 55%;
     font-size: 18px;
-    animation: swing 3.5s ease-in-out infinite alternate;
+    animation: swing 1.8s ease-in-out infinite;
+    animation-delay: calc(var(--i) * -.12s);
 }
 
 .into {
     top: 95%;
     left: 75%;
     font-size: 15px;
-    animation: swing 4.5s ease-in-out infinite alternate;
+    animation: swing 1.8s ease-in-out infinite;
+    animation-delay: calc(var(--i) * -.12s);
 }
 
 .space-text {
@@ -174,29 +178,22 @@ body {
 }
 
 @keyframes float {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
+  0%, 100% {
+    transform: translateX(0) rotate(0deg);
   }
   25% {
-    transform: translate(15px, -25px) rotate(4deg) scale(1.03);
-  }
-  50% {
-    transform: translate(-10px, -40px) rotate(-3deg) scale(0.97);
+    transform: translateX(-5px) rotate(-1deg);
   }
   75% {
-    transform: translate(-20px, -15px) rotate(2deg) scale(1.02);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
+    transform: translateX(5px) rotate(1deg);
 }
 
 @keyframes swing {
-  0% {
-    transform: rotate(-10deg);
-  }
-  100% {
+  0%, 100% {
     transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
   }
 }
 
