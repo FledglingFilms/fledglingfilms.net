@@ -266,8 +266,18 @@ body {
     color: #F4A338;
     font-family: "Times New Roman", Times, serif;
     text-shadow:
-        2px 2px 3px rgba(0, 0, 0, 1),
-        -2px -2px 3px rgba(0, 0, 0, 1);
+        2px 2px 2px rgba(0, 0, 0, 1),
+        -2px -2px 2px rgba(0, 0, 0, 1);
+    animation: drift 4s ease-in-out infinite;
+}
+
+@keyframes drift {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
 }
 
 .mphrase-one {                    /* Our goals are one and the same... */
