@@ -260,6 +260,11 @@ body {
     width: 120px;
 }
 
+.mysterious-text2 {
+    color: #F4A338;
+    font-family: "Times New Roman", Times, serif;
+}
+
 .mindscape-phrase {
     position: absolute;
     margin: 0;
