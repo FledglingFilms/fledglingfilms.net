@@ -65,7 +65,7 @@ body {
         linear-gradient(
             to bottom,
             #000 0%,
-            transparent 400px
+            transparent 200px
         ),
         url("https://bettysgraphics.neocities.org/images/backgrounds/water.gif");
     background-repeat: no-repeat, repeat;
