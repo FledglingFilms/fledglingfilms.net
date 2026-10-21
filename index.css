@@ -124,28 +124,28 @@ body {
     top: 5%;
     left: 25%;
     font-size: 30px;
-    animation: float 7s ease-in-out infinite;
+    animation: swing 4s ease-in-out infinite alternate;
 }
 
 .unknown {
     top: 30%;
     left: 35%;
     font-size: 22px;
-    animation: float 9s ease-in-out infinite;
+    animation: swing 3s ease-in-out infinite alternate;
 }
 
 .into-the-void {
     top: 60%;
     left: 55%;
     font-size: 18px;
-    animation: float 12s ease-in-out infinite;
+    animation: swing 3.5s ease-in-out infinite alternate;
 }
 
 .into {
     top: 95%;
     left: 75%;
     font-size: 15px;
-    animation: float 10s ease-in-out infinite;
+    animation: swing 4.5s ease-in-out infinite alternate;
 }
 
 .space-text {
@@ -175,22 +175,28 @@ body {
 
 @keyframes float {
   0% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
   }
-  20% {
-    transform: translate(15px, -10px) rotate(1deg);
+  25% {
+    transform: translate(15px, -25px) rotate(4deg) scale(1.03);
   }
-  40% {
-    transform: translate(5px, -25px) rotate(-1.5deg);
+  50% {
+    transform: translate(-10px, -40px) rotate(-3deg) scale(0.97);
   }
-  60% {
-    transform: translate(-12px, -15px) rotate(2deg);
-  }
-  80% {
-    transform: translate(-8px, 10px) rotate(-1deg);
+  75% {
+    transform: translate(-20px, -15px) rotate(2deg) scale(1.02);
   }
   100% {
-    transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
   }
 }
 
