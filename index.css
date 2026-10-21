@@ -186,6 +186,7 @@ body {
   }
   75% {
     transform: translateX(5px) rotate(1deg);
+  }
 }
 
 @keyframes swing {
