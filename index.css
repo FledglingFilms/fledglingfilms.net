@@ -266,15 +266,15 @@ body {
     color: #F4A338;
     font-family: "Times New Roman", Times, serif;
     text-shadow:
-        -1px -1px 0 black,
-         0px -1px 0 black,
-         1px -1px 0 black,
-        -1px  0px 0 black,
-         1px  0px 0 black,
-        -1px  1px 0 black,
-         0px  1px 0 black,
-         1px  1px 0 black,
-         2px  2px 4px black;
+        -2px -2px 0 black,
+         0px -2px 0 black,
+         2px -2px 0 black,
+        -2px  0px 0 black,
+         2px  0px 0 black,
+        -2px  2px 0 black,
+         0px  2px 0 black,
+         2px  2px 0 black,
+         2px  2px 3px black;
 }
 
 .mphrase-one {                    /* Our goals are one and the same... */
