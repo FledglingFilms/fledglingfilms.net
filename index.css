@@ -124,32 +124,28 @@ body {
     top: 5%;
     left: 25%;
     font-size: 30px;
-    animation: swing 1.8s ease-in-out infinite;
-    animation-delay: calc(var(--i) * -.12s);
+    animation: swing 8s ease-in-out infinite;
 }
 
 .unknown {
     top: 30%;
     left: 35%;
     font-size: 22px;
-    animation: swing 1.8s ease-in-out infinite;
-    animation-delay: calc(var(--i) * -.12s);
+    animation: swing 10s ease-in-out infinite;
 }
 
 .into-the-void {
     top: 60%;
     left: 55%;
     font-size: 18px;
-    animation: swing 1.8s ease-in-out infinite;
-    animation-delay: calc(var(--i) * -.12s);
+    animation: swing 9s ease-in-out infinite;
 }
 
 .into {
     top: 95%;
     left: 75%;
     font-size: 15px;
-    animation: swing 1.8s ease-in-out infinite;
-    animation-delay: calc(var(--i) * -.12s);
+    animation: swing 11s ease-in-out infinite;
 }
 
 .space-text {
@@ -179,13 +175,10 @@ body {
 
 @keyframes float {
   0%, 100% {
-    transform: translateX(0) rotate(0deg);
+    transform: translateX(5) rotate(1deg);
   }
-  25% {
+  50% {
     transform: translateX(-5px) rotate(-1deg);
-  }
-  75% {
-    transform: translateX(5px) rotate(1deg);
   }
 }
 
@@ -202,28 +195,28 @@ body {
     top: 30%;
     left: 30%;
     font-size: 20px;
-    animation: float 4s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
 
 .phrase-two {                    /* what do we want? */
     top: 50%;
     left: 70%;
     font-size: 20px;
-    animation: float 6s ease-in-out infinite;
+    animation: float 9s ease-in-out infinite;
 }
 
 .phrase-three {                    /* the answers lie beyond... */
     top: 70%;
     left: 10%;
     font-size: 20px;
-    animation: float 3s ease-in-out infinite;
+    animation: float 7s ease-in-out infinite;
 }
 
 .phrase-four {                    /* ...should you find the courage to continue onward */
     top: 90%;
     left: 50%;
     font-size: 20px;
-    animation: float 5s ease-in-out infinite;
+    animation: float 8s ease-in-out infinite;
 }
 
 .phrase-five {                    /* ...and prepare to dive within */
