@@ -356,5 +356,5 @@ body {
     top: 70%;
     left: 50%;
     font-size: 30px;
-    animation: drift 6s ease-in-out infinite;
+    animation: drift 8s ease-in-out infinite;
 }
