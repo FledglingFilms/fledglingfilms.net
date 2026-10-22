@@ -353,7 +353,7 @@ body {
 }
 
 .mphrase-five {                    /* Our Mission */
-    top: 80%;
+    top: 70%;
     left: 50%;
     font-size: 30px;
     animation: drift 6s ease-in-out infinite;
