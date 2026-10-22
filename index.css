@@ -229,12 +229,14 @@ body {
     top: 60%;
     left: 70%;
     font-size: 20px;
+    animation: drift 5s ease-in-out infinite;
 }
 
 .phrase-seven {                    /* ...and prepare to dive within */
     top: 95%;
     left: 48%;
     font-size: 20px;
+    animation: drift 3.5s ease-in-out infinite;
 }
 
 .gif-one {                    /* Spinning UFO */
@@ -303,7 +305,6 @@ body {
     margin: 0;
     color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    animation: drift 4s ease-in-out infinite;
 }
 
 .mindscape-phrase {
