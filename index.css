@@ -226,6 +226,12 @@ body {
 }
 
 .phrase-six {                    /* ...and prepare to dive within */
+    top: 60%;
+    left: 70%;
+    font-size: 20px;
+}
+
+.phrase-seven {                    /* ...and prepare to dive within */
     top: 95%;
     left: 48%;
     font-size: 20px;
