@@ -289,7 +289,7 @@ body {
 .mysterious-text2 {
     position: absolute;
     margin: 0;
-    color: #F4A338;
+    color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
     animation: drift 4s ease-in-out infinite;
 }
@@ -297,9 +297,9 @@ body {
 .mindscape-phrase {
     position: absolute;
     margin: 0;
-    color: #F4A338;
+    color: #FFFFFF;
     font-family: "Times New Roman", Times, serif;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px;
 }
 
 @keyframes drift {
