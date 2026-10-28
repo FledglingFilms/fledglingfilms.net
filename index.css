@@ -235,7 +235,7 @@ body {
 
 .phrase-one {                    /* who are we? */
     top: 30%;
-    left: 40%;
+    left: 33%;
     font-size: 20px;
     animation: swing 8s ease-in-out infinite;
 }
