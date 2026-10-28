@@ -203,12 +203,12 @@ body {
 .guestbook-text {
     position: absolute;
     margin: 0;
-    top: 23%;
-    left: 48%;
+    top: 21%;
+    left: 10%;
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    animation: swing 9s ease-in-out infinite;
+    animation: swing 16s ease-in-out infinite;
 }
 
 .guestbook-text a {
@@ -221,7 +221,7 @@ body {
     display: inline-block;
     position: relative;
     pointer-events: auto;
-    animation: guestbook 0.5s ease-in-out infinite;
+    animation: guestbook 0.3s ease-in-out infinite;
 }
 
 .guestbook-link,
