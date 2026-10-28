@@ -58,7 +58,7 @@ body {
     background-position: top left, top left;
 }
 
-.mindscape {
+.ground {
     min-height: 400vh;
     position: relative;
     background-image: 
@@ -67,7 +67,7 @@ body {
             #000 0%,
             transparent 400px
         ),
-        url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%2044.gif");
+        url("https://bettysgraphics.neocities.org/images/backgrounds/pattern%20217.gif");
     background-repeat: no-repeat, repeat;
     background-position: top left, top left;
 }
@@ -349,7 +349,7 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
-.mindscape-phrase {
+.ground-phrase {
     position: absolute;
     margin: 0;
     color: #FFFFFF;
@@ -366,35 +366,35 @@ body {
     }
 }
 
-.mphrase-one {                    /* Our goals are one and the same... */
+.gphrase-one {                    /* Our goals are one and the same... */
     top: 30%;
     left: 50%;
     font-size: 30px;
     animation: drift 3s ease-in-out infinite;
 }
 
-.mphrase-two {                    /* To create.*/
+.gphrase-two {                    /* To create.*/
     top: 40%;
     left: 10%;
     font-size: 30px;
     animation: drift 5s ease-in-out infinite;
 }
 
-.mphrase-three {                    /* To explore. */
+.gphrase-three {                    /* To explore. */
     top: 50%;
     left: 70%;
     font-size: 30px;
     animation: drift 7s ease-in-out infinite;
 }
 
-.mphrase-four {                    /* To discover. */
+.gphrase-four {                    /* To discover. */
     top: 60%;
     left: 30%;
     font-size: 30px;
     animation: drift 6s ease-in-out infinite;
 }
 
-.mphrase-five {                    /* Our Mission */
+.gphrase-five {                    /* Our Mission */
     top: 70%;
     left: 50%;
     font-size: 30px;
