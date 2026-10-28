@@ -210,6 +210,12 @@ body {
     font-size: 20px;
 }
 
+.guestbook-text a {
+    pointer-events: auto;
+    position: relative;
+    z-index: 10;
+}
+
 .guestbook-link {                    
     top: 10%;
     left: 45%;
