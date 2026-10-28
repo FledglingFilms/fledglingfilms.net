@@ -193,10 +193,10 @@ body {
 
 @keyframes guestbook {
   0%, 100% {
-    transform: translateY(-20px);
+    transform: translateY(-30px);
   }
   50% {
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
 }
 
@@ -221,7 +221,7 @@ body {
     display: inline-block;
     position: relative;
     pointer-events: auto;
-    animation: guestbook 0.1s ease-in-out infinite;
+    animation: guestbook 0.5s ease-in-out infinite;
 }
 
 .guestbook-link,
