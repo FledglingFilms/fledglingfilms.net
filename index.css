@@ -205,13 +205,14 @@ body {
     margin: 0;
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
 }
 
 .guestbook-link {                    
     top: 10%;
     left: 45%;
     font-size: 20px;
-    animation: guestbook 4s ease-in-out infinite;
+    animation: guestbook 1s ease-in-out infinite;
 }
 
 .phrase-one {                    /* who are we? */
