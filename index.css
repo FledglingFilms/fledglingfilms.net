@@ -221,7 +221,7 @@ body {
     display: inline-block;
     position: relative;
     pointer-events: auto;
-    animation: guestbook 0.5s ease-in-out infinite;
+    animation: guestbook 0.65s ease-in-out infinite;
 }
 
 .guestbook-link,
