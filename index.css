@@ -208,7 +208,7 @@ body {
     color: #00ff00;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    animation: swing 6s ease-in-out infinite;
+    animation: swing 9s ease-in-out infinite;
 }
 
 .guestbook-text a {
